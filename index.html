@@ -13,7 +13,7 @@
 
 <body>
     <div class="w-[100vw]">
-        <div class="relative h-[100vh] w-[100vw] flex justify-center items-center">
+        <div id="1" class="relative h-[100vh] w-[100vw] flex justify-center items-center">
             <canvas id="canvas" class="opacity-60 z-[1] fixed bg-fixed"></canvas>
             <div class=" text-center flex flex-col gap-5 w-[800px] justify-center items-center">
                 <p class="text-xl">Hi, I'm</p>
@@ -70,41 +70,41 @@
         </div>
         <div id="3" class="w-[100vw] h-[100vh] bg-black flex justify-center items-center">
             <div
-                class="w-[60%] h-[80%] z-[1] rounded-3xl border backdrop-blur flex flex-col justify-center items-center gap-10">
+                class="w-[60%] h-[80%] z-[1] rounded-3xl border relative backdrop-blur projects flex flex-col justify-center items-center gap-[70px]">
                 <div
-                    class="flex justify-around items-center flex-wrap w-[50%] projects transition-all duration-1000 gap-2">
-                    <div
-                        class="cursor-pointer backdrop-blur w-[200px] h-[150px] hover:backdrop-blur hover:z-[10] transition-all duration-[0.5s] rounded-3xl relative project">
-                        <a href="" class="">
-                            <img src="./To-Do List _ All tasks.png" class="w-100 h-[100%] object-cover rounded-3xl"
-                                alt="img">
-                        </a>
-                    </div>
-                    <div
-                        class="cursor-pointer backdrop-blur w-[200px] h-[150px] hover:backdrop-blur hover:z-[10] transition-all duration-[0.5s] rounded-3xl relative project">
-                        <a href="">
-                            <img src="./Screenshot (1).png" class=" w-100 h-[100%] object-cover rounded-3xl" alt="img">
-                        </a>
-                    </div>
-                    <div
-                        class="cursor-pointer backdrop-blur w-[200px] h-[150px] hover:backdrop-blur hover:z-[10] transition-all duration-[0.5s] rounded-3xl relative project">
-                        <a href="">
-                            <img src="./Screenshot (25).png" class=" w-100 h-[100%] object-cover rounded-3xl" alt="img">
-                        </a>
-                    </div>
-                    <div
-                        class="cursor-pointer backdrop-blur w-[200px] h-[150px] hover:backdrop-blur hover:z-[10] transition-all duration-[0.5s] rounded-3xl relative project">
-                        <a href="">
-                            <img src="./Screenshot (24).png" class=" w-100 h-[100%] object-cover rounded-3xl" alt="img">
-                        </a>
-                    </div>
+                    class="cursor-pointer absolute a w-[120px] h-[120px] hover:z-[10] transition-all duration-[0.5s] rounded-3xl rotate-45 project">
+                    <a href="" class="">
+                        <img src="To-Do List _ All tasks.png" class="w-100 h-[100%] object-cover rounded-3xl "
+                            alt="img" />
+                    </a>
+                </div>
+                <div
+                    class="cursor-pointer absolute b w-[120px] h-[120px] hover:z-[10] transition-all duration-[0.5s] rounded-3xl rotate-45 project">
+                    <a href="">
+                        <img src="Screenshot (1).png" class=" w-100 h-[100%] object-cover rounded-3xl " alt="img" />
+                    </a>
+                </div>
+                <div
+                    class="cursor-pointer absolute c  w-[120px] h-[120px] hover:z-[10] transition-all duration-[0.5s] rounded-3xl rotate-45 project">
+                    <a href="">
+                        <img src="Screenshot (25).png" class=" w-100 h-[100%] object-cover rounded-3xl " alt="img" />
+                    </a>
+                </div>
+                <div
+                    class="cursor-pointer absolute d  w-[120px] h-[120px] hover:z-[10] transition-all duration-[0.5s] rounded-3xl rotate-45 project">
+                    <a href="">
+                        <img src="Screenshot (24).png" class=" w-100 h-[100%] object-cover rounded-3xl " alt="img" />
+                    </a>
                 </div>
                 <a href="https://github.com/SUBMSRMA143" target="_blank"
-                    class="border-dotted border-b-2 text-white hover:scale-110 duration-200 hover:bg-white hover:text-black">More</a>
+                    class="border-dotted border-b-2 absolute bottom-[15%] text-white hover:scale-110 duration-200 hover:bg-white hover:text-black">More</a>
             </div>
+        </div>
+        <div id="4" class="w-[100vw] h-[100vh] bg-black">
+
         </div>
     </div>
     <script src="script.js"></script>
 </body>
-    
+
 </html>

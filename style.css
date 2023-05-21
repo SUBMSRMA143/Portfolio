@@ -6,7 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: #3B82F6 #afc6ec;
+  scrollbar-color: #3B82F6 transparent;
 }
 
 *::-webkit-scrollbar {
@@ -31,4 +31,146 @@ body {
 .projects:hover .project:not(:hover) {
   opacity: 0.5;
   filter: blur(3px);
+}
+
+
+
+.a,
+.b,
+.c,
+.d {
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.a {
+  top: 10%;
+  left: 42%;
+  animation-name: aa;
+}
+
+.b {
+  top: 27%;
+  left: 31%;
+  animation-name: ba;
+}
+
+.c {
+  top: 44%;
+  left: 42%;
+  animation-name: ca;
+}
+
+.d {
+  top: 27%;
+  left: 53%;
+  animation-name: da;
+}
+
+@keyframes aa {
+  0% {
+    top: 10%;
+    left: 42%;
+  }
+
+  25% {
+    top: 27%;
+    left: 31%;
+  }
+
+  50% {
+    top: 44%;
+    left: 42%;
+  }
+
+  75% {
+    top: 27%;
+    left: 53%;
+  }
+
+  100% {
+    top: 10%;
+    left: 42%;
+  }
+}
+
+@keyframes ba {
+  0% {
+    top: 27%;
+    left: 31%;
+  }
+
+  25% {
+    top: 44%;
+    left: 42%;
+  }
+
+  50% {
+    top: 27%;
+    left: 53%;
+  }
+
+  75% {
+    top: 10%;
+    left: 42%;
+  }
+
+  100% {
+    top: 27%;
+    left: 31%;
+  }
+}
+
+@keyframes ca {
+  0% {
+    top: 27%;
+    left: 53%;
+  }
+
+  25% {
+    top: 10%;
+    left: 42%;
+  }
+
+  50% {
+    top: 27%;
+    left: 31%;
+  }
+
+  75% {
+    top: 44%;
+    left: 42%;
+  }
+
+  100% {
+    top: 27%;
+    left: 53%;
+  }
+}
+
+@keyframes da {
+  0% {
+    top: 44%;
+    left: 42%;
+  }
+
+  25% {
+    top: 27%;
+    left: 53%;
+  }
+
+  50% {
+    top: 10%;
+    left: 42%;
+  }
+
+  75% {
+    top: 27%;
+    left: 31%;
+  }
+
+  100% {
+    top: 44%;
+    left: 42%;
+  }
 }
